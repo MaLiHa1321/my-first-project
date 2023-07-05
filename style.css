@@ -64,30 +64,39 @@
 
 }
 .head{
+   
+
+}
+.sector{
     text-align: center;
     font-size: 30px;
     font-weight: bolder;
     margin-top: 30px;
+    color: white;
+    background-color: rgb(23, 15, 15);
+    height: 600px;
+    
 }
 .service-container{
     display: flex;
     justify-content: space-around;
     padding: 20px;
     margin-top: 20px;
-    background-color: rgb(23, 15, 15);
-    height: 500px;
+   
+  
 }
 .about{
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
+    height: 350px;
 }
 .about{
     margin-top: 30px;
    
 }
 .box{
-    width: 250px;
+    width: 270px;
     height: 300px;
     margin-top: 30px;
     box-shadow: 4px 4px 15px gray;
@@ -106,6 +115,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 400px;
    
 }
 .about-footer{
