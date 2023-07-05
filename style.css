@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.manu-container{
+    background-color: rgb(22, 20, 20);
+    padding: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+ 
+}
+.menus{
+    display: flex;
+
+}
+.item{
+
+    margin-right: 10px;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.item:hover{
+    color: rgb(232, 202, 32);
+}
+.banner-photo{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    background-color: black ;
+    background-position: center;
+    background-size: contain;
+    color: white;
+}
+.title{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.des{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 20px bisque;
+}
+.text{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.head{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(23, 15, 15);
+    height: 500px;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.about{
+    margin-top: 30px;
+   
+}
+.box{
+    width: 250px;
+    height: 300px;
+    margin-top: 30px;
+    box-shadow: 4px 4px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+    width: 70px;
+}
+.footer{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.about-footer{
+    margin: 50px;
+    width: 200px;
+    height: 300px;
+}
+.about-link,.about-contact{
+    list-style: none;
+    font-size: 20px;
+}
