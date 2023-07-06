@@ -63,10 +63,7 @@
     font-weight: bolder;
 
 }
-.head{
-   
 
-}
 .sector{
     text-align: center;
     font-size: 30px;
@@ -115,7 +112,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 400px;
+   
    
 }
 .about-footer{
